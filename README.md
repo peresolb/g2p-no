@@ -72,7 +72,7 @@ l` | RL | perle
 l`= | RLX0 | 
 n` | RN | barn
 n`= | RNX0 | 
-s` | RS | pers
+s` | SJ | pers
 t` | RT | stort
 r= | RX0 | 
 s | S | sil
@@ -89,12 +89,14 @@ y: | YY0 | ny
 
 Unstressed syllables are marked with a 0 after the vowel or consonant syllable nucleus. The nucleus is marked with a *1* for tone 1 and a *2* for tone 2. Secondary stress is marked with *3*. In the material without tone and stress marking, all *3*s are replaced by zeros and all *2*s with 1s.
 
+For compatibility with NoFA, retroflex *s* is rendered as *SJ* instead of *RS*, which means that there is no distinction between postalveolar and retroflex *s* in the transcriptions.
+
 ## Evaluation
 
 Model | Word Error Rate | Phoneme Error Rate
 --- | --- | ---
-*model-wtone-nob.fst* | 14.58 | 2.80
-*model-notone-nob.fst* | 10.75 | 2.10
+*model-wtone-nob.fst* | 14.29 | 2.76
+*model-notone-nob.fst* | 10.44 | 2.00
 
 The PER calculation is borrowed from [this tutorial](https://fehiepsi.github.io/blog/grapheme-to-phoneme/).
 
