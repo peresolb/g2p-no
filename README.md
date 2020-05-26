@@ -11,6 +11,7 @@ Two models are trained. One is trained on a full version of the lexicon, includi
 simplified version where tonal markings and markings of secondary stress are removed. 
 
 ## Content
+The folder *train/* is too large to store on Github. It can be retrieved as a tar-ball from [this address](https://drive.google.com/file/d/1uWLOxFPn6yGyKU4WViz1E0awJVd3zgZ1/view?usp=sharing).
 * *train/*: Contains the models, as well as auxiliary files used by Phonetisaurus 
     * *model-wtone-nob.fst* contains full tone and stress specifications
     * *model-notone-nob.fst* that lacks tone and secondary stress
